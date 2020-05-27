@@ -14,7 +14,7 @@ export default class Details extends Component {
               {/*title}*/}
               <div className="row">
                 <div className="col-10 mx-auto text-center my-5">
-                  <h1>{title}</h1>
+                  <h1>Project #{id}</h1>
                 </div>
               </div>
               {/* end title*/}
@@ -27,14 +27,13 @@ export default class Details extends Component {
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                   <h2>{title}</h2>
                   <h4 className="">
-                    <strong>
-                      Grades:
-                      {grades}
-                    </strong>
+                   <span>Grades: </span> 
+                       {grades}
+                    
                   </h4>
-                  <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                    some additional information:
-                  </p>
+                  <h5 className="text-capitalize font-weight-bold mt-4 mb-1">
+                    Summary:
+                  </h5>
                   <p className="text-muted lead">{info}</p>
                   <div>
                     <Link to="/">
