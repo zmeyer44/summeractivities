@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import ActivityList from './components/ActivityList';
 import Details from './components/Details';
 import Default from './components/Default';
+import Home from './components/Home';
+import VirtualFieldtrip from './components/VirtualFieldtrip';
 
 
 class App extends Component {
@@ -14,8 +16,10 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ActivityList} />
+          <Route exact path="/" component={Home} />
+          <Route path="/activities" component={ActivityList} />
           <Route path="/details" component={Details} />
+          <Route path="/vft" component={VirtualFieldtrip} />
           <Route component={Default} />
         </Switch>
       </React.Fragment>

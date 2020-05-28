@@ -58,3 +58,22 @@ transition: all .5s ease-in-out;
     outline: none;
 }
 `;
+export const ButtonContainer4 = styled.button`
+text-transform: Capitalize;
+font-size: 1.7rem;
+background: transparent;
+border: 0.1rem solid var(--mainTeal);
+color: var(--mainTeal);
+border-radius: 0.5rem;
+padding: .2rem .5rem;
+cursor: pointer;
+margin: .2rem .5rem .2rem 0;
+transition: all .5s ease-in-out;
+&:hover{
+    background: var(--mainTeal);
+    color: var(--mainWhite);
+}
+&:focus{
+    outline: none;
+}
+`;

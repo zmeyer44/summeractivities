@@ -31,3 +31,129 @@ body{
   background-color: var(--mainWhite) !important;
   color: var(--mainBlue);
 }
+.home-title{
+  font-size: 3rem;
+  position: relative;
+  top:100px;
+}
+.gif{
+  position: relative;
+  top:200px;
+  
+}
+.button-row{
+  margin-top: 100px;
+  position: relative;
+  top:200px;
+}
+.button__wrapper {
+	
+	width: 400px;
+	height: 65px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-typewriter button {
+    background: transparent;
+    color: var(--mainBlue);
+    border: 3px solid var(--mainBlue);
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font: 24px "Margarine", sans-serif;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 2px;
+    width: 100%;
+		height: 100%;
+  }
+  
+	.button-typewriter p {
+		animation: typing 4s steps(12) infinite;
+		display: inline-block;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.button-typewriter .button__wrapper:hover p {
+		animation: blink 0.3s infinite;
+  }
+  .button-typewriter button:hover{
+    animation: heartbeat 0.2s infinite;
+  }
+
+.button-jittery button {
+  background: transparent;
+	color: var(--mainTeal);
+	border: 3px solid var(--mainTeal);
+	border-radius: 50px;
+	padding: 0.8rem 2rem;
+	font: 24px "Margarine", sans-serif;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 2px;
+  animation: jittery 4s infinite;
+
+}
+.button-jittery button:hover{
+  animation: heartbeat 0.2s infinite;
+}
+@keyframes jittery {
+	5%,
+	50% {
+		transform: scale(1);
+	}
+	10% {
+		transform: scale(0.9);
+	}
+	15% {
+		transform: scale(1.15);
+	}
+	20% {
+		transform: scale(1.15) rotate(-5deg);
+	}
+	25% {
+		transform: scale(1.15) rotate(5deg);
+	}
+	30% {
+		transform: scale(1.15) rotate(-3deg);
+	}
+	35% {
+		transform: scale(1.15) rotate(2deg);
+	}
+	40% {
+		transform: scale(1.15) rotate(0);
+	}
+}
+@keyframes heartbeat {
+	50% {
+		transform: scale(1.1);
+	}
+}
+@keyframes typing {
+	0% {
+		width: 0;
+	}
+	50% {
+		width: 100%;
+	}
+	55%,
+	65%,
+	75% {
+		opacity: 1;
+	}
+	60%,
+	70% {
+		opacity: 0;
+	}
+	80% {
+		width: 100%;
+	}
+	100% {
+		width: 0;
+	}
+}
