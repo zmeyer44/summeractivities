@@ -9,7 +9,7 @@ export default class Home extends Component {
                     <h1 className="col-12 text-title text-center home-title">FPBSD Summer Activity Center</h1>
                     </div>
                     <div className="row text-center">
-                    <div className="gif col-12 mx-auto"><iframe src="https://giphy.com/embed/l46CucCTE5duHKEla" width="480" height="267" frameBorder="0"></iframe></div>
+                    <div className="gif col-12 mx-auto mt-3 mb-0"><img src="../../img/SummerHome.gif" alt="gif" /></div>
                     </div>
                     
                 <div className="row button-row">

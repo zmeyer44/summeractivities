@@ -36,16 +36,8 @@ body{
   position: relative;
   top:100px;
 }
-.gif{
-  position: relative;
-  top:200px;
-  
-}
-.button-row{
-  margin-top: 100px;
-  position: relative;
-  top:200px;
-}
+
+
 .button__wrapper {
 	
 	width: 400px;
