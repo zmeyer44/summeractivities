@@ -94,6 +94,26 @@ body{
 .button-jittery button:hover{
   animation: heartbeat 0.2s infinite;
 }
+
+.threebuttons{
+	color: var(--mainWhite);
+	margin-top: 100px;
+	text-align: center;
+
+}
+.threebuttons > div{
+	background-color: var(--mainRed);
+	margin:0 20px;
+	border-radius: 25px;
+	padding: 20px;
+
+}
+.threebuttons>div>h2{
+	margin: 10px;
+}
+.threebuttons>div>img{
+	border-radius: 10px;
+}
 @keyframes jittery {
 	5%,
 	50% {
