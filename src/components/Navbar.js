@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                     </li>
                 </ul>
                 
-                       <div className="container-fluid text-center d-none d-lg-block col-6 pr-5">
+                       <div className="container-fluid text-center d-none d-lg-block col-6 prob">
                 <Title name="" title="Summer Activities" />
                 </div> 
                 <Link to="/" className="ml-auto">

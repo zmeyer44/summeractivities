@@ -4,7 +4,7 @@ export default class VirtualFieldtrip extends Component {
   render() {
     return (
       <div className="container vft">
-        <div className="row text-center justify-content-center me">
+        <div className="row text-center justify-content-center">
           <div className="col-8 col-lg-4">
             <div className="kard">
               <div className="front">
