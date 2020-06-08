@@ -17,7 +17,7 @@ body{
 .prob{
 	position: absolute;
 	top: 10px;
-	left:3%;
+	right:-2%;
 	
 }
 .card{
@@ -207,16 +207,15 @@ border-bottom: 3px solid #fff;
 .options>ul>li>a{
 	color: var(--mainWhite);
 	z-index: 10;
+	transition: ease-in-out .2s;
 	}
 .options>ul>li>a:hover{
 	text-decoration: none;
-	transform: scale(1.2);
-	transition: .2s ease-in-out ;
+	color: cyan;
+	
+	font-size: 18px;
 	}
-.options>ul>li>:hover{
-	transform: scale(1.2);
-	transition: .2s ease-in-out ;
-	}
+
 @keyframes jittery {
 	5%,
 	50% {
