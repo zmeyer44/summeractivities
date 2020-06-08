@@ -125,6 +125,8 @@ body{
 	position: relative;
 	top: 300px;
 	margin: 0 auto;
+	background-color: aquamarine;
+	text-align: center;
 }
 .vft .row2{
 	position: relative;
