@@ -20,7 +20,7 @@ class App extends Component {
           <Route path="/activities" component={ActivityList} />
           <Route path="/details" component={Details} />
           <Route path="/vft" component={VirtualFieldtrip} />
-          <Route path="vft" component={VirtualFieldtrip} />
+          <Route path=" vft" component={VirtualFieldtrip} />
           <Route component={Default} />
         </Switch>
       </React.Fragment>
