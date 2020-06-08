@@ -121,49 +121,94 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	color: var(--mainWhite);
 }
-.card{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,50%);
-	width: 300px;
-	height: 400px;
+.vft .row1{
+	position: relative;
+	top: 300px;
+}
+.vft .row2{
+	position: relative;
+	top: 720px;
+}
+.vft .row{
+	margin: 30px 0;
+	
+}
+.details>h2{
+	margin: 15px 0 5px 0;
+	text-transform: uppercase;
+}
+.kard{
+    
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+	transition: 0.5s;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top: 20px;
+}
+.kard .front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+.kard:hover .front{
+    transform: rotateX(-180deg);
+}
+.kard .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+.kard:hover .back{
+    transform: rotateX(0deg);
+}
+.kard .back .details{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
 
-	transform-style: preserve-3d;
-	perspective: 600px;
-	transition: .5s;
+.options>ul{
+	
+	list-style: none;
+	display: block;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  line-height: 2.3rem;
 }
-.card .front{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height:100%;
-	background: #000;
-	backface-visibility: visible;
-	transform: rotateX(0deg);
-	transition: .5s;
-	overflow: hidden;
+.options>ul>li{
+border-bottom: 3px solid #fff;
 }
-.card:hover .front{
-	transform: rotateX(-180deg);
-}
-.card .back{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height:100%;
-	background: #000;
-	backface-visibility: visible;
-	transform: rotateX(180deg);
-	transition: .5s;
-	overflow: hidden;
-}
-.card:hover .back{
-	transform: rotateX(0deg);
-}
-.card .back .details
+.options>ul>li>a{
+	color: var(--mainWhite);
+	z-index: 10;
+	}
+.options>ul>li>a:hover{
+	text-decoration: none;
+	transform: scale(1.2);
+	transition: .2s ease-in-out ;
+	}
+.options>ul>li>:hover{
+	transform: scale(1.2);
+	transition: .2s ease-in-out ;
+	}
 @keyframes jittery {
 	5%,
 	50% {
@@ -219,3 +264,15 @@ body{
 		width: 0;
 	}
 }
+@-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+  }
+  @font-face {
+	  font-family: neon;
+	  src: url(./hellodenverdisplayregular_v1.6.ttf);
+  }
