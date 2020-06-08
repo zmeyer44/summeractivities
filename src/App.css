@@ -122,7 +122,7 @@ body{
 	border-radius: 10px;
 }
 .vft{
-	margin: 0 auto;
+	margin: 100px auto;
 	padding: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	color: var(--mainWhite);
