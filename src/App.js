@@ -8,7 +8,7 @@ import Details from './components/Details';
 import Default from './components/Default';
 import Home from './components/Home';
 import VirtualFieldtrip from './components/VirtualFieldtrip';
-
+import ScrollToTop from "./ScrollToTop";
 
 class App extends Component {
   render() {
@@ -23,6 +23,7 @@ class App extends Component {
           <Route path=" vft" component={VirtualFieldtrip} />
           <Route component={Default} />
         </Switch>
+        <ScrollToTop />
       </React.Fragment>
     );
   }
