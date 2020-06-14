@@ -215,6 +215,11 @@ border-bottom: 3px solid #fff;
 	
 	font-size: 18px;
 	}
+	.SRG{
+		position: relative;
+		top:200px;
+
+	}
 
 @keyframes jittery {
 	5%,

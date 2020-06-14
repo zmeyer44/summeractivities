@@ -8,6 +8,9 @@ import Details from './components/Details';
 import Default from './components/Default';
 import Home from './components/Home';
 import VirtualFieldtrip from './components/VirtualFieldtrip';
+import Calender from './components/Calender';
+import Reading from './components/Reading';
+
 import ScrollToTop from "./ScrollToTop";
 
 class App extends Component {
@@ -20,6 +23,8 @@ class App extends Component {
           <Route path="/activities" component={ActivityList} />
           <Route path="/details" component={Details} />
           <Route path="/vft" component={VirtualFieldtrip} />
+          <Route path="/calender" component={Calender} />
+          <Route path="/reading" component={Reading} />
           <Route path=" vft" component={VirtualFieldtrip} />
           <Route component={Default} />
         </Switch>

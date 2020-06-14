@@ -39,11 +39,13 @@ export default class Home extends Component {
         
         <div className="row threebuttons justify-content-center">
             <div id="sec1" className="col-10 col-md-3 text-center">
-                <img src="../../img/calender.jpg"alt="calender"width="100%" />
+                <img src="../../img/calender.png"alt="calender"width="100%" />
                 <h2>Calender</h2>
+                <Link to="/calender">
 <ButtonContainer4>
     Learn More
 </ButtonContainer4>
+</Link>
             </div>
             <div id="sec2" className="col-10 col-md-3 text-center">
             <img src="../../img/software.jpg"alt="software" width="100%"/>
@@ -54,10 +56,12 @@ Learn More
             </div>
             <div id="sec3" className="col-10 col-md-3 text-center">
             <img src="../../img/remedial.jpg"alt="remedial" width="100%"/>
-            <h2>Remedial</h2>
+            <h2>Reading & More</h2>
+            <Link to='/reading'>
 <ButtonContainer4>
 Learn More
 </ButtonContainer4>
+</Link>
             </div>
         </div>
         
