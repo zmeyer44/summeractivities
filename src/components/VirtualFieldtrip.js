@@ -184,6 +184,9 @@ export default class VirtualFieldtrip extends Component {
                   <div className="options">
                     <ul>
                     <li>
+                        <a href="..\img\WDW virtual field trip.pptx" download>Disney World</a>
+                      </li>
+                    <li>
                         <a href="https://www.youtube.com/watch?v=NclNqdXIJpU&list=PLzle1hB-hXhLOWurFgOObU3hXj2ECKl7w&index=15" target="_blank">Fort Jefferson</a>
                       </li>
                       <li>
@@ -203,6 +206,24 @@ export default class VirtualFieldtrip extends Component {
           </div>
           
         </div>
+        <div className="kard text-center">
+              <div className="front ">
+                <img src="../../img/disney.jpg" height="400px"></img>
+              </div>
+              <div className="back">
+                <div className="details">
+                  <h2>Disney World</h2>
+                  <div className="options">
+                    <ul>
+                    <li>
+                        <a href="..\img\WDW virtual field trip.pptx" download>Disney World</a>
+                      </li>
+                    
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     );
   }

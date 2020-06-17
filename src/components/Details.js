@@ -36,7 +36,7 @@ export default class Details extends Component {
                   </h5>
                   <p className="text-muted lead">{info}</p>
                   <div>
-                    <Link to="/">
+                    <Link to="/activities">
                       <ButtonContainer2>
                         back to Activities List
                       </ButtonContainer2>
