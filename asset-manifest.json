@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/summeractivities/static/css/main.2936d572.chunk.css",
+    "main.js": "/summeractivities/static/js/main.73865116.chunk.js",
+    "main.js.map": "/summeractivities/static/js/main.73865116.chunk.js.map",
+    "runtime-main.js": "/summeractivities/static/js/runtime-main.bf5f10f3.js",
+    "runtime-main.js.map": "/summeractivities/static/js/runtime-main.bf5f10f3.js.map",
+    "static/css/2.de424728.chunk.css": "/summeractivities/static/css/2.de424728.chunk.css",
+    "static/js/2.752af621.chunk.js": "/summeractivities/static/js/2.752af621.chunk.js",
+    "static/js/2.752af621.chunk.js.map": "/summeractivities/static/js/2.752af621.chunk.js.map",
+    "index.html": "/summeractivities/index.html",
+    "precache-manifest.b19c779ccccce8f5007356c4f1aeb639.js": "/summeractivities/precache-manifest.b19c779ccccce8f5007356c4f1aeb639.js",
+    "service-worker.js": "/summeractivities/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/summeractivities/static/css/2.de424728.chunk.css.map",
+    "static/css/main.2936d572.chunk.css.map": "/summeractivities/static/css/main.2936d572.chunk.css.map",
+    "static/js/2.752af621.chunk.js.LICENSE.txt": "/summeractivities/static/js/2.752af621.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/summeractivities/static/media/hellodenverdisplayregular_v1.6.05bf9485.ttf",
+    "static/media/sun.png": "/summeractivities/static/media/sun.26462834.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf5f10f3.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.752af621.chunk.js",
+    "static/css/main.2936d572.chunk.css",
+    "static/js/main.73865116.chunk.js"
+  ]
+}
