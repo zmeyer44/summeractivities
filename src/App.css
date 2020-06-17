@@ -216,8 +216,12 @@ border-bottom: 3px solid #fff;
 	font-size: 18px;
 	}
 	.SRG{
+		width: auto;
+		display: inline;
 		position: relative;
 		top:200px;
+		background-color: var(--mainYellow);
+		margin: 20px;
 
 	}
 
