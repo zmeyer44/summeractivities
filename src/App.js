@@ -25,6 +25,7 @@ class App extends Component {
           <Route path="/vft" component={VirtualFieldtrip} />
           <Route path="/calender" component={Calender} />
           <Route path="/reading" component={Reading} />
+          <Route path="/reading" component={Reading} />
           <Route component={Default} />
         </Switch>
         <ScrollToTop />
